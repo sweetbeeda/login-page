@@ -191,6 +191,7 @@ text-decoration: underline;
     .container-contant{
         width: 350px;
         margin: auto 20px;
+        padding-left:10px;
     }
 
     .heading h1{
