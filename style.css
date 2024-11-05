@@ -187,3 +187,41 @@ input::placeholder {
 text-decoration: underline;
 
 }
+@media screen and (max-width:480px) {
+    .container-contant{
+        width: 350px;
+    }
+
+    .heading h1{
+        font-weight: 500;
+        font-size: 28px;
+    }
+    .option{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2rem;
+    }
+    
+    .userInput {
+        margin-left:35px;
+    }
+
+    input{
+        width: 290px;
+    }
+
+    .for{
+        margin-left: 3rem;
+    }
+
+    .btn-main button{
+        margin-left:15%;
+        width: 200px;
+    }
+
+    .para{
+        display: flex;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+}
