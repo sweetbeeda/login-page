@@ -196,6 +196,7 @@ text-decoration: underline;
     .heading h1{
         font-weight: 500;
         font-size: 28px;
+        margin-left: 30px;
     }
     .option{
         display: flex;
@@ -224,5 +225,9 @@ text-decoration: underline;
         display: flex;
         margin-left: 2rem;
         margin-top: 2rem;
+    }
+
+    .separator{
+        margin-left: 20px;
     }
 }
