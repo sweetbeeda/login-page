@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght,GRAD@1,8..144,500,24&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #626cd6;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.container-contant {
+    background: white;
+    width: 500px;
+    padding: 41px 30px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 500px 1px black;
+
+
+}
+
+.heading h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+.option {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+    height: 56px;
+    border-radius: 5px;
+
+}
+
+.option span {
+
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+
+}
+
+.google,
+.apple {
+    display: flex;
+    margin-right: 15px;
+    border: 1px solid;
+    gap: 20px;
+    background: #dedee1f3;
+    height: 40px;
+    align-items: center;
+    padding: 6px;
+    border-radius: 9px;
+    width: 10rem;
+    border-color: rgb(204, 203, 203);
+    transition: 1s;
+
+}
+
+.google:hover {
+    background: rgb(204, 203, 203);
+    border-width: 1px;
+    border-color: #626cd6;
+    cursor: pointer;
+}
+
+.apple:hover {
+    background: rgb(204, 203, 203);
+    border-width: 1px;
+    border-color: #626cd6;
+    cursor: pointer;
+}
+
+.separator {
+    position: relative;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.separator span {
+    font-size: 20px;
+}
+
+/* userinput of email and password */
+.userInput {
+    margin-left: 40px;
+
+}
+
+label {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20rem;
+}
+
+input {
+    width: 200px;
+    height: 45px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #626cd66a;
+    background-color: #d4d4d770;
+    margin-bottom: 15px;
+    padding: 4px;
+    width: 24.5rem;
+}
+
+.for {
+    margin-left: 9rem;
+    text-transform: capitalize;
+}
+
+.for a {
+    color: rgba(0, 0, 255, 0.707);
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color: rgba(128, 128, 128, 0.603);
+    font-size: 16px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+
+.btn-main button{
+    color: white;
+    text-transform:uppercase;
+    width: 350px;
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 2.9rem;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: #626cd6;
+    outline: none;
+    padding: 0.2rem;
+    border:none;
+    transition:500ms;
+    font-size: 20px;
+    
+}
+
+.btn-main button:hover{
+    background: white;
+    color: #626cd6;
+
+}
+
+.para{
+    display:flex;
+    margin-top: 1rem;
+    margin-left: 5.8rem;
+    font-size: 18px;
+
+}
+.para  a{
+    text-transform: capitalize;
+
+}
+
+.para p {
+    padding-right:0.5rem;
+}
+
+.para a:hover{
+text-decoration: underline;
+
+}
