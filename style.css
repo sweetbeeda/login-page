@@ -189,7 +189,7 @@ text-decoration: underline;
 }
 @media screen and (max-width:480px) {
     .container-contant{
-        width: 250px;
+        width: 290px;
     }
 
     .heading h1{
