@@ -190,6 +190,7 @@ text-decoration: underline;
 @media screen and (max-width:480px) {
     .container-contant{
         width: 350px;
+        margin: auto 20px;
     }
 
     .heading h1{
